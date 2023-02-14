@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <math.h>
 
 #define MAX_LEN 21
 
@@ -51,7 +50,7 @@ int main(){
     
     //menerima input koordinat awal dan dikonversi ke indeks array
     int x_temp = koordinat[0]+10;
-    int y_temp;
+    int y_temp = koordinat[1];
     if (y_temp<=0){
         y_temp = abs(koordinat[1])+10;}
     else{ y_temp = abs(koordinat[1]-10);}
