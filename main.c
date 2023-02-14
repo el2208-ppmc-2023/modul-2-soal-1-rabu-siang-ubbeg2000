@@ -17,7 +17,7 @@ int main(){
    
     char filename[MAX_LEN];
     printf("Masukkan nama file input: ");
-    scanf("%s", &filename);
+    scanf("%s", filename);
     FILE* fp = fopen(filename, "r");
     if (fp == NULL){
         printf("\nError: file instruksi tidak tersedia!\n");
